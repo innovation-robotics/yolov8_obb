@@ -22,7 +22,6 @@ in the data directory predefined_classes.txt add screw_driver at the beginning<b
 python3 labelImg.py<br>
 make the annotation and press Ctrl+S for every image<br>
 cd ..<br>
-cd yolov5-utils<br>
 python3 yolov5-utils/voc2yolo5_obb.py --path yolov8_obb/data_for_training/ --class-file labelImg2/data/predefined_classes.txt<br>
 cd ..<br>
 cd yolov8obb_training<br>
