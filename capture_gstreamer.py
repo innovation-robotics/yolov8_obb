@@ -22,7 +22,7 @@ def main():
         if key == ord('q'):
             break
         elif key == ord('s'):
-            filename = f"image_{img_count}.png"
+            filename = f"data_for_training/image_{img_count}.png"
             cv2.imwrite(filename, frame)
             print(f"Saved {filename}")
             img_count += 1
